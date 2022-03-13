@@ -11,6 +11,14 @@ body {
   background: transparent;
   backdrop-filter: blur(2px);
   height: 48px;
+  border:transparent  1px solid;
+}
+
+#navbar_styling1:hover {
+  border: #fff 1px solid;
+  backdrop-filter: blur(8px);
+  color:white;
+  box-shadow: #222222 10px 10px 10px 4px;
 }
 
 
@@ -20,9 +28,8 @@ body {
     border-radius: 100px;
     -moz-box-shadow:    3px 3px 5px 6px #15f4ee;
     -webkit-box-shadow: 3px 3px 5px 6px #15f4ee;
-    box-shadow:         3px 3px 5px 6px #000000;
+    box-shadow:         3px 3px 5px 6px #222222;
 }
-
 
 
 #about {
@@ -49,32 +56,7 @@ body {
     text-align: center;
     font-weight: bold;
   }
-  
 
-#gmail1 {
-    height: 30px;
-    width: 40px;
-}
-
-#pinterest1 {
-    height: 30px;
-    width: 30px;
-}
-
-#twitter1 {
-    height: 30px;
-    width: 30px;
-}
-
-#dc1 {
-    height: 30px;
-    width: 30px;
-}
-
-#spot1 {
-    height: 30px;
-    width: 40px;
-}
 
 #contacts {
     background-image: url("Cheers!.png");
@@ -114,25 +96,6 @@ body {
     background-color:slategray
   }
 
-#main_text_style {
-  
-  width:120px ;
-  height:50px;
-  border-radius: 10%;
-}
-#main_text_style:hover{ 
-  border-radius: 12px;
-  color: black;
-  box-shadow: 0 0 10px aqua; 
-}
-
-#navvyboi {
-  color: gray;
-}
-
-#navvyboi:hover {
-  color:white;
-}
 
 #div_cont {
   background: transparent;
@@ -142,7 +105,7 @@ body {
 }
 
 #div_cont:hover {
-  box-shadow: 0 0 50px aqua;
+  box-shadow: 0 0 25px white;
 }
 
 #blankboi {
@@ -170,14 +133,26 @@ body {
 #conts {
   background: transparent;
   backdrop-filter: blur(6px);
-  border: white 2px solid;
+  border: 3px white solid;
+  height: 50px;
+   width: 50px;
+}
+
+#conts:hover {
+  background-color: white;
 }
 
 #submitboi {
   background: transparent;
   backdrop-filter: blur(6px);
   border: white 2px solid;
-  height: 20px;
+  height: 40px;
+  font-weight: 600;
+}
+
+#submitboi:hover {
+  background-color: white;
+  color: black;
 }
 
 #discord_user {
