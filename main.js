@@ -10,5 +10,11 @@ function myFunction() {
     alert("Copied the text: " + copyText.value + " :)");
   }
 
-  var x = new Audio();
-  x.src = "nevergonna.mp3"
+var pin = document.getElementById("pin1").value;
+
+function check1(){
+  if(pin == "1836"){
+    window.location("index.html")
+  } 
+
+}

@@ -7,6 +7,8 @@ body {
 
 }
 
+
+
 #navbar_styling1 {
   background: transparent;
   backdrop-filter: blur(2px);
@@ -31,6 +33,13 @@ body {
     box-shadow:         3px 3px 5px 6px #222222;
 }
 
+#cursive_style {
+  font-family: 'Shadows Into Light';
+   background: transparent;
+   font-weight: bold;
+    backdrop-filter: blur(2px);
+}
+
 
 #about {
     background-image: url(data:image/jpeg;base64,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);
@@ -49,6 +58,8 @@ body {
   backdrop-filter: blur(8px);
 }
 
+
+
 #about132 {
     font-family: 'Share Tech Mono', monospace;
     font-size: 30px;
@@ -57,6 +68,12 @@ body {
     font-weight: bold;
   }
 
+.anim:hover {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 #contacts {
     background-image: url("Cheers!.png");
@@ -105,7 +122,7 @@ body {
 }
 
 #div_cont:hover {
-  box-shadow: 0 0 25px white;
+  box-shadow: 0 0 25px white  ;
 }
 
 #blankboi {
@@ -128,6 +145,52 @@ body {
   color: white;
   font-family: 'Play', sans-serif;
   font-family: 'Raleway', sans-serif;
+}
+
+#modal-button1 {
+  background:transparent;
+  backdrop-filter: blur(6px);
+  height: 100px;
+  width: 30%;
+  font-family: 'Shadows Into Light';
+  font-weight: bold;
+  font-size: larger;
+  border: 1px solid white;
+}
+
+#modal-button2 {
+
+  height: 100px;
+  width: 30%;
+  font-family: 'Shadows Into Light';
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 20px;
+  border: 1px solid white;
+  background:transparent;
+  backdrop-filter: blur(6px);
+}
+
+#modal-button2:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;  
+}
+
+#modal-button1:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;  
+}
+
+#button-container {
+
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 4px 4px 4px 4px;
 }
 
 #conts {
@@ -163,13 +226,87 @@ body {
 }
 
 #dcchat {
-  background:transparent;
+  background:black;
+  border-radius: 100px;
   backdrop-filter: blur(5px);
   border: #36393f 1.7px solid;
   height: 80px;
   margin-top: 300px;
   font-family: 'Play', sans-serif;
   font-family: 'Raleway', sans-serif;
+}
+
+#heading_dc {
+  border:15px solid black;
+  border-radius: 75px;
+  background-color: black; 
+}
+
+#green_btn {
+  color: greenyellow;
+  border: greenyellow 1px solid;
+  height: 40px;
+  width:100px;
+  background-color: black;
+}
+
+#myInput {
+  margin-top: 20px;
+  color: #00ffff;
+  border: #00ffff 1px solid;
+  height: 40px;
+  background-color: black;
+  width:fit-content;
+}
+
+#password101 {
+  color: white;
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+  width: 30%;
+  border: 2px white solid;
+  margin-left: 535px;
+  font-size: 50px;
+  margin-top: 50px;
+  font-family: 'Play', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 5px;
+}
+
+#pin1 {
+  margin-top: 200px;
+  height: 100px;
+  width: 150px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  background:transparent;
+  backdrop-filter: blur(5px);
+  border: 2px white solid;
+  border-radius: 5px;
+}
+
+#pin1:hover {
+  border:aquamarine 2px solid;
+}
+
+#blue_text {
+  margin-top: 20px;
+  color: #00ffff;
+  border: #00ffff 1px solid;
+  height: 40px;
+  background-color: black;
+  width:fit-content;
+}
+
+#blue_text:hover {
+  background-color: #00ffff;
+  color: black;
+}
+
+#green_btn:hover {
+  background-color:greenyellow ;
+  color: black;
 }
 
 #dcchat1 {
@@ -205,4 +342,90 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: black;
+}
+
+
+#leftToRight{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 4px 4px 4px 4px;
+  animation: run ease 3s;
+  -webkit-animation: run ease 3s;
+  -moz-animation: run ease 3s;
+  -o-animation: run ease 3s;
+  -ms-animation: run ease 3s;
+}   
+
+@keyframes run {
+  0% { margin-left: -98%;}
+  100%{ margin-left: 0%;}
+}
+
+@-moz-keyframes run {
+  0% { margin-left: -98%;}
+  100%{ margin-left: 0%;}
+}
+
+@-webkit-keyframes run {
+  0% { margin-left: -98%;}
+  100%{ margin-left: 0%;}
+}
+
+@-o-keyframes run {
+  0% { margin-left: -98%;}
+  100%{ margin-left: 0%;}
+}
+
+@-ms-keyframes run {
+  0% { margin-left: -98%;}
+  100%{ margin-left: 0%;}
+}
+
+#welcome-lol {
+  text-align: center;
+  font-family: 'Shadows Into Light';
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+#bigger {
+  font-size: 70px;
+  font-family: 'Open Sans', sans-serif; font-weight: 100;
+}
+
+#normal {
+  font-family: 'shadows into light';
+}
+
+
+#modal-1 {
+  background-color: black;
+  color: white;
+  border: white 2px solid;
+}
+
+#hobbies {
+  background: rgb(45, 45, 45);
+  color:white;
+  font-weight: bolder;
+  border: white 2px solid;
+  width: fit-content;
+  padding: 30px;
+  display: inline;
+  margin-right: 10px;
+  box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.316);
+}
+
+#heading123 {
+  font-weight: bolder;
+  
+}
+
+#skill-div {
+  text-align: center;
+  margin-right: 1000px;
+  display: inline;
 }

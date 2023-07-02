@@ -1,0 +1,59 @@
+#typewriterop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: inline-flex;
+}
+
+ .static-txt {
+ color: white;
+ font-size: 30px;
+
+}
+ .dynamic-txts {
+ margin-left: 15px;
+ height: 30px;
+ line-height: 30px;
+ background: rgb(0, 0, 0);
+ overflow: hidden;
+}
+
+ .dynamic-txts li{
+  color: aquamarine;
+  list-style: none;
+  font-size: 30px ;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(6) infinite;
+}
+
+@keyframes slide {
+  100%{
+    top: -180px;
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+}
+
+.dynamic-txts li span::after{
+  content:"";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  border-left: 2px solid;
+  animation: typing 2s steps(10) infinite;
+}
+
+@keyframes typing {
+  100%{
+    left: 100%;
+    margin: 0 -35 px 0 35px;
+  }
+}
